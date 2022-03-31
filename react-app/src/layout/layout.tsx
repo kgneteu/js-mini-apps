@@ -4,7 +4,7 @@ const Layout = () => {
     return (
         <div className={'flex'}>
             <div>List</div>
-            <main className={'flex flex-col p'}>
+            <main className={'flex flex-col'}>
                 <Outlet/>
             </main>
         </div>
